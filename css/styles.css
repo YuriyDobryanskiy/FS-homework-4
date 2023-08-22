@@ -86,6 +86,8 @@ header {
   background-color: var(--white);
   padding: 24px 156px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 header > .blocks-wrapper {
   display: -webkit-flex;
@@ -155,11 +157,12 @@ header > .blocks-wrapper address ul {
 
 header > .blocks-wrapper nav ul li a,
 header > address ul li a {
+  position: relative;
   font-weight: var(--bold-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navybluemodal);
+  color: #404bbf;
   padding: 24px 0;
 }
 header > address ul li a {
