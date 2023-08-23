@@ -310,7 +310,15 @@ main .parts .block {
 main .team .person {
   /*width: calc((100% - 72px) / 4);*/
 }
-
+main .parts ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 main .parts .block h3 {
   color: #2e2f42;
   font-size: 20px;
