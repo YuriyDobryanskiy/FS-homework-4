@@ -81,10 +81,6 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-.container-f {
-  display: flex;
-  align-items: baseline;
-}
 
 header {
   background-color: var(--white);
@@ -419,6 +415,8 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background: var(--navyblue);
+  display: flex;
+  align-items: baseline;
 }
 footer .logo span {
   color: #f4f4fd;
