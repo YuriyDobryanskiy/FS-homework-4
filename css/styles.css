@@ -395,6 +395,7 @@ main .team ul li > div ul li > a {
   align-items: center;
   justify-content: center;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 main .team ul li > div ul li a:hover,
 main .team ul li > div ul li a:focus {
