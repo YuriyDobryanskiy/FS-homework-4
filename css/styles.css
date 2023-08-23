@@ -375,6 +375,32 @@ main .team ul li p,
 main .portfolio .work p {
   letter-spacing: 0.32px;
 }
+
+main .team ul li > div ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+main .team ul li > div ul li {
+  width: 40px;
+  height: 40px;
+}
+main .team ul li > div ul li a {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .team ul li > div ul li a:hover,
+main .team ul li > div ul li a:focus {
+  background-color: #404bbf;
+}
+main .team ul li > div ul li a svg {
+  fill: var(--cloud);
+}
 /*team*/
 /*portfolio*/
 
