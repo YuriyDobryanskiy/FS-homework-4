@@ -167,20 +167,23 @@ header > address ul li a {
 }
 header > address ul li a {
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 header > .blocks-wrapper nav ul li a:hover,
 header > address ul li a:hover,
 header > .blocks-wrapper nav ul li a:focus,
 header > address ul li a:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 header > .blocks-wrapper nav ul li a::after {
   content: '';
   position: absolute;
-  bottom: -5px;
+  bottom: -1px;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 4px;
+  border-radius: 2px;
   background-color: var(--ocean);
   transform: scaleX(0);
   transform-origin: left center;
