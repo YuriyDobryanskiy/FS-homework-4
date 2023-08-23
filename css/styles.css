@@ -220,10 +220,14 @@ main .solution {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-1-main-bg.jpg) no-repeat left top / cover;
+    url(../images/people-office-1-main-bg.jpg) no-repeat center / cover;
   text-align: center;
   color: var(--white);
   padding: 188px 0;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 main .solution h1 {
   text-transform: capitalize;
@@ -252,6 +256,7 @@ main .solution button {
   height: 56px;
   cursor: pointer;
   margin: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 main .solution button:hover,
 main .solution button:focus {
