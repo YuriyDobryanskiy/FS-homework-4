@@ -84,7 +84,7 @@ img {
 
 header {
   background-color: var(--white);
-  padding: 24px 156px;
+  padding: 0px 156px;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -157,15 +157,13 @@ header > .blocks-wrapper address ul {
 
 header > .blocks-wrapper nav ul li a,
 header > .blocks-wrapper address ul li a {
-  display: inline-block;
+  position: relative;
   font-weight: var(--bold-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  position: relative;
+  padding: 24px 0;
   display: inline-block;
-  color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 header > .blocks-wrapper nav ul li a:hover,
 header > address ul li a:hover,
